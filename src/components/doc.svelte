@@ -8,15 +8,6 @@
     width: 100%;
     left: 0;
   }
-  .logo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .logo img {
-    max-width: 200px;
-  }
   span {
     position: absolute;
     left: 0;
@@ -56,6 +47,9 @@
   .dock-nav ul li:hover img {
     transform: translateY(-15px) scale(1.2);
   }
+  .dock-nav ul li:active img {
+    transform: translateY(-20px) scale(1.5);
+  }
   .dock-nav ul li.other img {
     transform: translateY(-5px);
   }
@@ -78,8 +72,7 @@
           <img
             src="http://icons.iconarchive.com/icons/johanchalibert/mac-osx-yosemite/1024/finder-icon.png"
             class="img-fluid"
-            alt="mac"
-             />
+            alt="mac" />
         </li>
         <li>
           <img
